@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: es.upm.dit.apsv.transportationorderserver.TransportationOrderControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.182 s <<< FAILURE! - in es.upm.dit.apsv.transportationorderserver.TransportationOrderControllerTest
+es.upm.dit.apsv.transportationorderserver.TransportationOrderControllerTest  Time elapsed: 0.181 s  <<< ERROR!
+java.lang.IllegalStateException: Found multiple @SpringBootConfiguration annotated classes [Generic bean: class [es.upm.dit.apsv.transportationorderserver.TransportationOrderServerApplicationTests]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/home/s.illescas/TransportationOrderServer0/target/test-classes/es/upm/dit/apsv/transportationorderserver/TransportationOrderServerApplicationTests.class], Generic bean: class [es.upm.dit.apsv.transportationorderserver.TransportationOrderServerApplication]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/home/s.illescas/TransportationOrderServer0/target/classes/es/upm/dit/apsv/transportationorderserver/TransportationOrderServerApplication.class]]
+
